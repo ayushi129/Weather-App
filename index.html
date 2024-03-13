@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <div class="card">
@@ -19,10 +19,12 @@
         </div>
 
         <div class="weather">
-            <h2 class="city">Weather in India</h2>
+            <h2 class="city">Weather in Pune</h2>
             <h1 class="temp">35°C</h1>
-            <img src="" alt="" class="icon">
-            <div class="description">Sunny</div>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon">
+                <div class="description">Sunny</div>
+            </div>
             <div class="humidity">Humidity : 60%</div>
             <div class="wind">Wind Speed : 6.2km/hr</div>
         </div>
